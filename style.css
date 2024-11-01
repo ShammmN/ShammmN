@@ -1,0 +1,134 @@
+/* Color Palette:
+Light Shades: #f5f5ff;
+Light Accent: #847895;
+Main Brand Color: #968da6;
+Dark Accent: #706e7e;
+Dark Shades: #2c313e;
+*/
+.name{
+    text-align: center;
+    color:#2c313e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:large;
+    background-color:#857895;
+}
+body{
+    color:#2c313e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: meduim;
+    background-color:#857895;
+}
+header{
+    text-align:center;
+    text-transform: bold;
+    color:#2c313e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:larger;
+    padding:20px;
+}
+.conbod{
+    text-align:center;
+    text-transform: bold;
+    color:#2c313e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:larger;
+    padding:20px;
+}
+p{
+    text-align:center;
+    text-transform: bold;
+    color:#2c313e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:larger;
+    padding:20px;
+}
+footer{
+    color:#2c313e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:smaller;
+    background-color:#857895;
+}
+h2{
+    color:#f5f5ff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:large;
+    background-color:#857895;
+}
+ol{
+    color:#2c313e;
+    font-family:  Georgia, Times, 'Times New Roman';
+    font-size:large;
+    background-color:#857895;
+}
+img{
+
+    display: inline-block;
+    border-radius: 40%;
+    width: 200px;
+    border-color: #706e7e;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+nav{
+    width:100%;
+    position: fixed;
+    top:0;
+    position:-webit-sticky;
+    position:sticky;
+    top: 0;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    border-right: 1px solid #706e7e;
+}
+.navbar{
+    overflow:hidden;
+    display: inline;
+    background-color: #857895;
+    float: left;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: auto;
+    position: sticky;
+}
+nav li{
+    float:left;
+    position:fixed;
+}
+.navbar li:last-child{
+    border-right: none;
+}
+
+nav li a{
+    float: left;
+    color:#2c313e;
+    display: block;
+    padding: 8px;
+    background-color:#706e7e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column{
+    float:left;
+    width: 33%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.row-after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
