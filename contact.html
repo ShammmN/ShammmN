@@ -2,23 +2,59 @@
 <html> 
     <head> 
         <link rel="stylesheet" href="./style.css">
-        <title>Ways to Contact Me</title>
         <nav> 
             <ul class='navbar'>
-                <li><a href="index.html" target="_blank">Home</a></li>                
+                <li><a href="index.html" target="_blank">Home</a></li>
                 <li><a href="contact.html" target="_blank">Conatct Me</a></li>
                 <li><a href="interests.html" target="_blank">My Intresets</a></li>
             </ul>
         </nav>
     </head> 
+    <title>Ways to Contact Me</title>
     <body class="conbod">
+
         <ul>
             <li>Name: Sham Nemer</li>
             <li>Email: shamnmr2008@gmail.com</li>
             <li>Instagram: @ShimmmerShammm</li>
             <li>Linkedin: <a href="https://www.linkedin.com/in/sham-nemer-a2501b334?trk=people-guest_people_search-card" target="_blank">Sham Nemer</a></li>
         </ul>
-    <footer>Updated last: 10/25/24</footer>
-</body>
+        <div class = "flex-container">
+            <h2 style = "background-color: #686d80;">Feedback</h2>
+            <section class = "form_fill_out">
+                <form>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="Full Name" style="color: #323d62" required>
+                    <br><hr style="width: 150px">
+
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="Email" style="color: #323d62" required>
+                    <br><hr style="width: 150px">
+
+                    <label for="number">Phone Number:</label>
+                    <input type="tel" id="number" name="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" style="color: #0a0b42" required>
+                    <br><hr style="width: 150px">
+
+                    <section class="radio">
+                        <input type="radio" id="Question" name="answer" value="Question">
+                        <label for="Question">Questions</label>
+
+                        <input type="radio" id="Comment" name="answer" value="Comment">
+                        <label for="Comment">Comments</label>
+
+
+                        <input type="radio" id="Suggestion" name="answer" value="Suggestion">
+                        <label for="Suggestion">Suggestions</label>
+
+                    </section>
+                    <textarea id="message" name="message" minlength="10" style="color: #323d62; min-width: 225px"></textarea>
+                    <br><hr style="width: 150px">
+                    <input id="submit" type="submit" value="send">
+
+                </form>
+            </section>
+        </div>
+    </body>
+    <footer>Updated last: 11/13/24</footer>
 </html>
     

@@ -1,65 +1,76 @@
 /* Color Palette:
 Light Shades: #f5f5ff;
-Light Accent: #847895;
-Main Brand Color: #968da6;
-Dark Accent: #706e7e;
-Dark Shades: #2c313e;
+Light Accent: #7b7e84;
+Main Brand Color: #9094a0;
+Dark Accent: #686d80;
+Dark Shades: #323d62;
 */
+
 .name{
     text-align: center;
-    color:#2c313e;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#323d62;
+    font-family: Georgia, Times, 'Times New Roman', serif;
     font-size:large;
-    background-color:#857895;
+    background-color:#9094a0;
 }
 body{
-    color:#2c313e;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#323d62;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: meduim;
-    background-color:#857895;
+    background-color:#9094a0;
+}
+strong{
+    color:#f5f5ff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: meduim;
 }
 header{
     text-align:center;
     text-transform: bold;
-    color:#2c313e;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#f5f5ff;
+    font-family: Georgia, Times, 'Times New Roman', serif;
     font-size:larger;
     padding:20px;
 }
-.conbod{
-    text-align:center;
-    text-transform: bold;
-    color:#2c313e;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:larger;
-    padding:20px;
-}
+
+
 p{
     text-align:center;
     text-transform: bold;
-    color:#2c313e;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#f5f5ff;
+    font-family: Georgia, Times, 'Times New Roman', serif;
     font-size:larger;
     padding:20px;
 }
 footer{
-    color:#2c313e;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#323d62;
+    font-family: Georgia, Times, 'Times New Roman', serif;
     font-size:smaller;
-    background-color:#857895;
+    background-color:#9094a0;
+
 }
 h2{
     color:#f5f5ff;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Georgia, Times, 'Times New Roman', serif;
     font-size:large;
-    background-color:#857895;
+    background-color:#7b7e84;
+    height: 50px;
+    text-align: center;
 }
 ol{
-    color:#2c313e;
-    font-family:  Georgia, Times, 'Times New Roman';
+    color:#323d62;
+    font-family: Georgia, Times, 'Times New Roman';
     font-size:large;
-    background-color:#857895;
+    background-color:#686d80;
+    text-align: center;
 }
+.list{
+    color:#323d62;
+    font-family: Georgia, Times, 'Times New Roman';
+    font-size:large;
+    text-align: center;
+}
+
 img{
 
     display: inline-block;
@@ -73,41 +84,35 @@ img{
 nav{
     width:100%;
     position: fixed;
-    top:0;
     position:-webit-sticky;
     position:sticky;
     top: 0;
-    width: 100%;
-    position: sticky;
-    top: 0;
-    border-right: 1px solid #706e7e;
+    border-right: 1px solid #686d80;
 }
 .navbar{
+    top:0;
     overflow:hidden;
-    display: inline;
-    background-color: #857895;
-    float: left;
+    background-color: #686d80;
     list-style-type:none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     height: auto;
     position: sticky;
 }
-nav li{
+.navbar li{
     float:left;
-    position:fixed;
+    margin-right:1px
 }
 .navbar li:last-child{
     border-right: none;
 }
 
-nav li a{
+nav a{
     float: left;
-    color:#2c313e;
+    color:#f5f5ff;
     display: block;
     padding: 8px;
-    background-color:#706e7e;
+    background-color:#7b7e84;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -121,14 +126,57 @@ nav li a{
 
 .column{
     float:left;
-    width: 33%;
-    padding: 15px;
+    width: 23%;
+    padding: 5px;
     box-sizing: border-box;
 }
-.row-after{
+.row:after{
     content: "";
     display: table;
     clear: both;
 
+}
+
+@media screen and (max-width: 600px){
+    .column{
+        width:100%;
+    }
+} 
+
+.card{
+    border: 3px #7b7e84;
+    background-color: #686d80;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+
+.sectiontitle{
+    color: #686d80;
+    text-align:center
+}
+a:hover{
+    color: #686d80;
+}
+
+.container{
+    background-color: #686d80;
+    padding: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content:center;
+    justify-content: space-around;
+    justify-content: space-between;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+}
+
+.box{
+    background-color: #7b7e84;
+    color: #f5f5ff;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
 }
 
